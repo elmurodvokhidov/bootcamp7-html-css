@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    height: 100vh;
+    background-color: cadetblue;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+    background-color: darkslateblue;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar a {
+    color: black;
+    font-size: 22px;
+}
+
+.logo {
+    font-size: 45px;
+}
+
+#humburger {
+    display: none;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    right: 100px;
+    top: 25px;
+}
+
+.mobile_nav {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    background-color: black;
+}
+
+.close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 30px;
+    color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.mobile_nav .logo {
+    color: white;
+}
+
+.mobile_nav main {
+    display: flex;
+    gap: 220px;
+    height: 50%;
+    padding-top: 35px;
+    justify-content: center;
+}
+
+.mobile_nav a {
+    font-size: 30px;
+}
+
+.mobile_nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    letter-spacing: 5px;
+    padding-top: 50px;
+}
+
+input {
+    display: none;
+}
+
+@media all and (max-width: 1025px) {
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 769px) {
+    .navbar ul {
+        display: none;
+    }
+
+    #humburger {
+        display: block;
+    }
+
+    input:checked ~ .mobile_nav {
+        right: 0;
+    }
+
+}
+
+@media all and (max-width: 426px) {
+    .navbar {
+        padding: 25px 30px;
+    }
+}
