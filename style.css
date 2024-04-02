@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-color: red;
+}
+
+.navbar {
+    padding: 15px 30px;
+    color: silver;
+}
+
+.navbar h1 {
+    display: inline-block;
+}
+
+.navbar .icon {
+    margin-left: 1370px;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.section1_main {
+    background-image: url('./COD-LAUNCH-TOUT.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 320px 0 40px 60px;
+}
+
+.section1_content {
+    width: fit-content;
+    color: white;
+    padding: 30px 50px 50px;
+    border: 8px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.section1_content h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.section1_content h3 {
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 23px;
+}
+
+.section2 {
+    padding: 70px 50px;
+    text-align: center;
+    background-color: silver;
+}
+
+.section2 h1 {
+    color: coral;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.section2_card {
+    display: inline-block;
+    width: 400px;
+    padding: 25px 20px 25px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+.section2_card figure {
+    width: 100%;
+}
+.section2_card figure img {
+    width: 100%;
+}
+
+.section2_card p {
+    margin: 15px 0;
+    color: silver;
+}
+
+.section2_card h3 {
+    font-size: 25px;
+}
+
+.section2 > p {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.section2 > p span {
+    color: red;
+}
+
+.section3 {
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(44, 67, 68);
+}
+
+.section3_top {
+    margin-bottom: 140px;
+}
+
+.section3_left {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section3_top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section3_right {
+    width: 400px;
+    color: white;
+    text-align: left;
+    padding: 20px 0 0 15px;
+    display: inline-block;
+}
+
+.section3_right h1 {
+    font-size: 40px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.section3_right figure {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: -70px;
+}
+
+.section3_right p {
+    width: 365px;
+}
+
+.section3_bottom figure:first-child {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    border: 10px solid orange;
+}
+
+.section3_bottom figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section3_bottom figure:nth-child(2) {
+    width: 250px;
+    height: 270px;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.section3_footer {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.section3_footer{
+    text-align: center;
+    color: orange;
+}
+
+.section3_icons {
+    padding: 10px 0;
+    margin: 15px 0 10px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+}
+.section3_footer p {
+    text-align: justify;
+    width: 50%;
+    margin: 0 auto;
+}
