@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    gap: 50px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    /* background-image: url(https://wallup.net/wp-content/uploads/2016/07/19/20787-HDR-building-lights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.box h2 {
+    position: absolute;
+    bottom: -100%;
+    color: white;
+    font-size: 2em;
+    transition: all 1.3s ease-in-out;
+    left: 25px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.box h2:last-child {
+    transition: all 1.8s;
+}
+
+.box:hover h2:first-child {
+    bottom: 60px;
+    opacity: 1;
+}
+
+.box:hover h2:last-child {
+    bottom: 20px;
+    opacity: 1;
+}
+
+.black {
+    width: 100%;
+    height: 0;
+    transition: all .8s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.638);
+}
+
+.box:hover .black {
+    height: 100%;
+}
+
+.box img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transition: all .5s ease-in-out;
+}
+
+.box:hover img {
+    scale: 1.2;
+}
