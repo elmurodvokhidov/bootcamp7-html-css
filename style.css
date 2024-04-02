@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-color: white;
+}
+
+.navbar {
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.859);
+}
+
+.navbar>p {
+    height: 50px;
+    display: inline-block;
+    padding: 30px 15px 0;
+    margin-left: 15px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar > p:hover {
+    background-color: red;
+}
+
+main {
+    padding: 20px 0 0 20px;
+}
+
+main h1 {
+    margin: 0 0 20px 0;
+}
+
+.modal {
+    width: 200px;
+    position: relative;
+    top: 5px;
+    left: 206px;
+    padding: 15px;
+    opacity: 0;
+    box-shadow: 5px 5px 60px 5px rgba(0, 0, 0, 0.619);
+    background-color: white;
+}
+
+.modal p:nth-child(2) {
+    margin: 20px 0;
+}
+
+.modal a {
+    color: black;
+}
+
+#drop:hover .modal {
+    opacity: 1;
+}
