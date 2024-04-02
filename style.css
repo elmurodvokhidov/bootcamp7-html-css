@@ -1,0 +1,101 @@
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+#box:hover {
+    background-color: blue;
+}
+
+/* h1 {
+    font-size: 15px;
+    display: inline;
+    background-color: red;
+} */
+
+/* h1:hover {
+    font-size: 30px;
+    color: aqua;
+} */
+
+.card {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 50px 20px silver;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.parent p:first-child {
+    color: red;
+}
+
+.parent p:last-child {
+    color: red;
+}
+
+.parent p:nth-child(3) {
+    color: red;
+}
+
+.parent p:nth-child(1) {
+    color: blue;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+/* * {
+    cursor: pointer;
+} */
+
+/* p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+} */
+
+/* p::first-letter {
+    font-size: 40px;
+} */
+
+/* h1::after {
+    content: url(https://media.tenor.com/Wq-MvpjAJksAAAAM/emojilaugh-emoji.gif);
+} */
+
+/* .box {
+    width: 400px;
+    height: 400px;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    background-color: blue;
+}
+
+.box::after {
+    content: "2";
+    display: block;
+    position: absolute;
+    left: 450px;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+} */
+
+/* ::marker {
+    color: red;
+    font-size: 23px;
+} */
+
+/* ::selection {
+    color: red;
+    background: yellow;
+} */
