@@ -1,0 +1,18 @@
+.box {
+    width: 500px;
+    height: 50px;
+    margin: 200px;
+    border: 1px solid black;
+}
+
+.child {
+    width: 30%;
+    height: 50px;
+    transition: all 2s ease-in;
+    background-color: blue;
+}
+
+.box:hover .child {
+    width: 100%;
+    background-color: blue;
+}
